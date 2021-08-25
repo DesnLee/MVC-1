@@ -1,0 +1,14 @@
+#app3 #square {
+    height: 15%;
+    width: 30%;
+    margin-top: 15%;
+    margin-left: 15%;
+    text-align: center;
+    line-height: 36px;
+    border: 1px solid red;
+    transition: transform 1s;
+}
+
+#app3 #square.click{
+    transform: translateX(25vw);
+}

@@ -1,0 +1,12 @@
+#app1 #output {
+    margin-top: 2vh;
+    margin-left: 2vw;
+}
+#app1 button {
+    padding: 2px 4px;
+    margin-top: 2vh;
+    margin-left: 2vw;
+}
+#app1 > #btnList {
+    display: flex;
+}

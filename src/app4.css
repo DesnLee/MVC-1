@@ -1,0 +1,28 @@
+#app4 #circle{
+    margin-top: 8vh;
+    margin-left: 8vw;
+    background: wheat;
+    width: 30vh;
+    height: 30vh;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30vh;
+}
+
+@keyframes color {
+    0%{
+        background: wheat;
+    }
+    33%{
+        background: tomato;
+    }
+    66%{
+        background: skyblue;
+    }
+    100%{
+        background: wheat;
+    }
+}
+#app4 #circle.active{
+    animation: color 3s infinite;
+}

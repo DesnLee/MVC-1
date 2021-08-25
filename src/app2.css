@@ -1,0 +1,25 @@
+#app2 #tabBar{
+    border-bottom: 1px solid blue;
+    display: flex;
+}
+
+#app2 #tabBar li{
+    width: 50%;
+    text-align: center;
+    padding: 1vh 0;
+}
+
+#app2 #tabBar li.selected{
+    background: dodgerblue;
+    color: white;
+}
+
+#app2 #content li{
+    display: none;
+    text-align: center;
+    margin-top: 2vh;
+}
+
+#app2 #content li.active {
+    display: block;
+}
